@@ -1,0 +1,72 @@
+body {
+    font-family: "Lato-black", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+}
+/*navbar background and text color*/
+nav {
+    background-color: #111;
+    color: white;
+    padding: 20px 50px;
+}
+/*settings for navbar container*/
+.navTop {
+    display: flex;
+    align-items: vertically;
+    justify-content: space-between;
+}
+
+/*Search bar settings*/
+.search {
+    display: flex;
+    align-items: center;
+    background-color: rgb(68, 68, 68);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.searchInput {
+    border: none;  
+    background-color: transparent;
+}
+
+.searchInput::placeholder {
+    color: lightgray;
+}
+/*Limited Time Offer text display*/
+.limitedOffer {
+    font-size: 20px;
+    border-bottom: 2px solid rgb(167, 127, 240);
+    cursor: pointer;
+}
+/*Navbar bottom settings*/
+.navBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuItem{
+    margin-right: 50px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+/*Slider Settings*/
+.slider {
+    background: url("https://images.unsplash.com/photo-1472803828399-39d4ac53c6e5?q=80&w=1253&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    overflow: hidden;
+
+  }
+
+  .sliderWrapper{
+    display: flex;
+    width: 500vw;
+  }
+
+  .sliderItem{
+    width: 100vw;
+  }
